@@ -26,3 +26,11 @@
     background-color: rgb(165, 165, 165);
     outline: 1px solid slategrey;
   }
+
+
+#montserratLight {
+  font-family: 'Montserrat', sans-serif;
+}
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}

@@ -1,22 +1,22 @@
 import React from 'react'
 import logofia from '../images/logofia.png'
-
+import "../css/navbar.css"
 const Navbar = () => {
   let Links = [
     { name: "Home", link: "/" },
     { name: "Tentang Kami", link: "/" },
     { name: "Profile", link: "/" },
     { name: "Publikasi", link: "/" },
-    { name: "Open Registrasi", link: "/" },
+    { name: "Open Registrasi", link: "/oprec" },
   ]
   return (
     <div className='shadow-md w-full top-0 left-0'>
-      <div className='md:flex items-center justify-between 
-            bg-gradient-to-tr from-zinc-900 to-violet-900
-            py-2 md:px-4'>
-        <div className='font-bold text-2xl cursor-pointer flex items-center text-white mt-2 mb-2'>
-          <span className='text-3xl text-indigo-600 pr-1'>
-            <img className='w-16' src={logofia} alt="Logo BEM FIA" />
+      <div className='nav-container md:flex items-center justify-between 
+            bg-gradient-to-tr from-zinc-900 to-violet-900 rounded-bl-lg rounded-br-lg
+            py-4 md:px-10 px-7'>
+        <div className='font-bold text-2xl cursor-pointer flex items-center text-white'>
+          <span className='text-3xl text-indigo-600 m-1 pt-2'>
+            <img className='w-20 pr-3' src={logofia} alt="Logo BEM FIA" />
           </span>
           BEM FIA UI
         </div>
