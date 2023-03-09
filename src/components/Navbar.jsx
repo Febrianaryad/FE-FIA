@@ -10,7 +10,7 @@ const Navbar = () => {
     { name: "Open Registrasi", link: "/" },
   ]
   return (
-    <div className='shadow-md w-full fixed top-0 left-0'>
+    <div className='shadow-md w-full top-0 left-0'>
       <div className='md:flex items-center justify-between 
             bg-gradient-to-tr from-zinc-900 to-violet-900 rounded-lg
             py-4 md:px-10 px-7'>
