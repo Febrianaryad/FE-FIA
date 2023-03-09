@@ -1,0 +1,7 @@
+button:not([disabled]).button-post:active {
+    color: white;
+    background-color: black;
+    box-shadow: 8px 8px 10px #1D2E4E;
+    transform: translateY(4px);
+    border: none;
+}

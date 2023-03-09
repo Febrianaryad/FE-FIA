@@ -1,17 +1,17 @@
 import React from 'react'
 import logofia from '../images/logofia.png'
-
+import "../css/navbar.css"
 const Navbar = () => {
   let Links = [
     { name: "Home", link: "/" },
     { name: "Tentang Kami", link: "/" },
     { name: "Profile", link: "/" },
     { name: "Publikasi", link: "/" },
-    { name: "Open Registrasi", link: "/" },
+    { name: "Open Registrasi", link: "/oprec" },
   ]
   return (
     <div className='shadow-md w-full top-0 left-0'>
-      <div className='md:flex items-center justify-between 
+      <div className='nav-container md:flex items-center justify-between 
             bg-gradient-to-tr from-zinc-900 to-violet-900 rounded-bl-lg rounded-br-lg
             py-4 md:px-10 px-7'>
         <div className='font-bold text-2xl cursor-pointer flex items-center text-white'>
