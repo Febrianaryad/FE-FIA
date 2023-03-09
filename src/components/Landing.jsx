@@ -30,7 +30,7 @@ const Landing = () => {
 
   return (
     <div className='w-full min-h-screen flex flex-col justify-center items-center gap-y-8 bg-gradient-to-b from-[#747474] to-black'>
-      <div className='h-[40rem] w-full'>
+      <div className='h-[43rem] w-full'>
         <div className="h-full relative group">
             <div style={{backgroundImage: `url(${slides[currentIndex].url})`}} className='w-full h-full  bg-center bg-cover duration-500 relative z-0'>
               <div className="max-w-[62.5rem] mx-auto px-8 flex flex-col justify-center h-full Z-50 text-white">
@@ -48,13 +48,13 @@ const Landing = () => {
 
     <div className='items-center max-w-[70rem] px-10'>
       <div className='flex flex-col items-center pt-[2rem] text-white'>
-        <h1 className='text-xl font-extrabold pb-[0.75rem] sm:text-5xl'>Visi</h1>
-        <h3 className='text-center text-xl font-bold'>Badan Eksekutif Mahasiswa Fasilkom UI sebagai katalisator yang aktif dan dinamis dalam mewujudkan aspirasi dan ambisi IKM Fasilkom UI melalui pendekatan yang eksploratif.</h3>
+        <h1 className='text-3xl font-extrabold pb-[0.75rem] md:text-5xl'>Visi</h1>
+        <h3 className='text-center text-base font-bold md:text-xl'>Badan Eksekutif Mahasiswa Fasilkom UI sebagai katalisator yang aktif dan dinamis dalam mewujudkan aspirasi dan ambisi IKM Fasilkom UI melalui pendekatan yang eksploratif.</h3>
       </div>
 
       <div className='flex flex-col items-center pt-[3rem] text-white'>
-        <div className='text-xl font-extrabold pb-[0.75rem] sm:text-5xl'>Misi</div>
-          <ol className='text-justify text-xl font-bold list-decimal'>
+        <div className='text-3xl font-extrabold pb-[0.75rem] md:text-5xl'>Misi</div>
+          <ol className='text-justify text-base font-bold list-decimal md:text-xl'>
             <li>
               Menjawab permasalahan yang dihadapi oleh IKM Fasilkom UI secara dinamis sesuai dengan situasi dan kondisi yang dihadapi.
             </li>
