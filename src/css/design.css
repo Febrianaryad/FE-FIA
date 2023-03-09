@@ -1,0 +1,19 @@
+
+.left-section{
+    background: linear-gradient(#E2514A, #732E8B);
+}
+
+.right-section{
+    background: white;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.drop-file .highlight {
+    border-color: purple;
+  }
+
+
+

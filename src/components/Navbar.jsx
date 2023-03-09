@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className='shadow-md w-full top-0 left-0'>
       <div className='nav-container md:flex items-center justify-between 
-            bg-gradient-to-tr from-zinc-900 to-violet-900 rounded-bl-lg rounded-br-lg
+
             py-4 md:px-10 px-7'>
         <div className='font-bold text-2xl cursor-pointer flex items-center text-white'>
           <span className='text-3xl text-indigo-600 m-1 pt-2'>
