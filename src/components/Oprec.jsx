@@ -77,7 +77,7 @@ const Oprec = () => {
 
 
     return (
-        <div className=" montserrat flex h-screen w-full">
+        <div className=" montserrat grid md:flex  flex h-screen w-full font-bold">
             <div className='left-section basis-3/5 flex justify-center text-white flex-col
              bg-gradient-to-t from-[#732E8B] to-[#E2514A]'>
                 <div className="title-container ml-2">
