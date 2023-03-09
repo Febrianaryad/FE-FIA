@@ -10,7 +10,7 @@ const Navbar = () => {
     { name: "Open Registrasi", link: "/oprec" },
   ]
   return (
-    <div className='shadow-md w-full top-0 left-0'>
+    <div className='shadow-md w-full top-0 left-0 sticky'>
       <div className='nav-container md:flex items-center justify-between 
 
             py-4 md:px-10 px-7'>

@@ -46,15 +46,21 @@ const Landing = () => {
       </div>
 
 
-    <div className='items-center max-w-[70rem] px-10'>
-      <div className='flex flex-col pt-[2rem] text-white'>
-          <h1 className='text-xl font-extrabold pb-[0.75rem] sm:text-5xl'>Visi</h1>
-        <h3 className=' text-xl font-bold'>Badan Eksekutif Mahasiswa Fasilkom UI sebagai katalisator yang aktif dan dinamis dalam mewujudkan aspirasi dan ambisi IKM Fasilkom UI melalui pendekatan yang eksploratif.</h3>
+      <div className='items-start max-w-[70rem] px-10'>
+      <div className='flex flex-col items-start pt-[2rem] text-white'>
+        <div className='pt-1 px-4 bg-gradient-to-tl from-[#905EDF] to-[#682DA2] rounded-md'>
+          <h1 className='text-3xl font-extrabold pb-[0.75rem] md:text-5xl'>Visi</h1>
+        </div>
+        <br />
+        <h3 className='text-justify text-base font-bold md:text-xl'>Badan Eksekutif Mahasiswa Fasilkom UI sebagai katalisator yang aktif dan dinamis dalam mewujudkan aspirasi dan ambisi IKM Fasilkom UI melalui pendekatan yang eksploratif.</h3>
       </div>
 
-      <div className='flex flex-col pt-[3rem] text-white'>
-        <div className='text-xl font-extrabold pb-[0.75rem] sm:text-5xl'>Misi</div>
-          <ol className='text-justify text-xl font-bold list-decimal'>
+      <div className='flex flex-col items-start pt-[3rem] text-white'>
+        <div className='pt-1 px-4 bg-gradient-to-tl from-[#905EDF] to-[#682DA2] rounded-md'>
+          <div className='text-3xl font-extrabold pb-[0.75rem] md:text-5xl'>Misi</div>
+        </div>
+        <br />
+          <ol className='text-justify text-base font-bold list-decimal pl-5 md:text-xl'>
             <li>
               Menjawab permasalahan yang dihadapi oleh IKM Fasilkom UI secara dinamis sesuai dengan situasi dan kondisi yang dihadapi.
             </li>
@@ -79,6 +85,7 @@ const Landing = () => {
     </div>
 
     <div className="h-[4rem]"></div>
+    
     
 </div>
   )
